@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&B Construction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to D&B Construction</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome-section">
+        <h2>Welcome to D&B Construction</h2>
+        <p class="fade-in">Your trusted partner in building dreams. We specialize in painting, roof works, building houses, and tiling. Our team of professionals is dedicated to delivering quality workmanship on every project.</p>
+    </section>
+
+    <footer>
+        <p class="fade-in">&copy; 2024 D&B Construction. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add a script to trigger fade-in animations on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.fade-in');
+            elements.forEach(element => {
+                element.classList.add('animated');
+            });
+        });
+    </script>
+</body>
+</html>
